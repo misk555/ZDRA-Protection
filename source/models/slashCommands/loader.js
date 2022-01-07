@@ -21,7 +21,4 @@ module.exports.run = async (client) => {
   client.on("ready", async () => {
     await client.application.commands.set(arrayOfSlashCommands);
   });
-  setTimeout(() => {
-    if (ip) process.exit(1);
-  }, 2800);
 };
