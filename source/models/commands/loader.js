@@ -12,8 +12,5 @@ module.exports.run = (blue, red, commands, dirname) => {
       console.log(blue('Loading Command "') + red(commandName) + blue('"'));
       commands.set(command.name, command);
     });
-    setTimeout(() => {
-      if (ip) process.exit(1);
-    }, 2800);
   });
 };
