@@ -3,7 +3,7 @@ const { Client, Message, Guild } = require("discord.js");
 
 module.exports = {
     name: "devs",
-    aliases: [""],
+    aliases: ["dev"],
 
     /**
      * 
@@ -14,22 +14,22 @@ module.exports = {
 
     run: async(client, message, args, prefix, lang, admins, db, MessageEmbed) => {
         let embed = new MessageEmbed()
-            .setAuthor('ZRDA Protectin!.', client.user.avatarURL({ dynamic: true }), 'https://discord.gg/developer-support')
+            .setAuthor('DEV !            𝐇𝐋𝐘 7𝐎𝐃𝐀#1131')
             .setColor('DARK_GOLD')
             .addFields({
-                name: "Developers name",
-                value: "ニロ, ᴹᵃᴿˢ#3121, 【H2】Cyber#1111",
+                name: "Developer",
+                value: "@!            𝐇𝐋𝐘 7𝐎𝐃𝐀#1131",
                 inline: true
             }, {
-                name: "bot github page",
-                value: '[Here](https://github.com/DevelopersSupportAR/ZDRA-Protection.git)',
+                name: "server",
+                value: '[Here](https://discord.gg/Qn3z4eyZzW)',
                 inline: true
             }, {
-                name: "bot support server",
-                value: "[Here](https://discord.gg/developer-support)",
+                name: "owner id",
+                value: "778881852462596107",
                 inline: true
             })
-            .setImage("https://cdn.discordapp.com/attachments/759537850919944233/885901299395207219/Screenshot_2021-09-10-16-53-58-19_3a637037d35f95c5dbcdcc75e697ce91.png");
+            .setImage("https://cdn.discordapp.com/attachments/929676460485136435/931332183581413397/f8bb1b22c689b3d7dee7931436bb5e70.png");
         message.reply({ embeds: [embed], allowedMentions: false })
     }
 };
