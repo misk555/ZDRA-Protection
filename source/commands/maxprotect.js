@@ -27,9 +27,9 @@ module.exports = {
             .setStyle("DANGER")
             .setLabel('🔓 Full Protection');
         let btn3 = new MessageButton()
-            .setCustomId('niro')
+            .setCustomId('7oda')
             .setStyle("DANGER")
-            .setLabel('🔒 Niro Protection');
+            .setLabel('🔒 7oda Protection');
         let row = new MessageActionRow()
             .addComponents(btn, btn2, btn3);
         var m = await message.reply({ embeds: [embed], components: [row], ephemeral: true })
@@ -60,7 +60,7 @@ module.exports = {
                 m.edit({ content: "> ❌ **All Bot Protection Settings Is Off**", embeds: [], components: [], ephemeral: true })
             } else if (i.customId == "full") {
                 db.set(`AntiLinksArray_${message.guild.id}`, { data: ['https', 'http', 'www', 'discord.gg'] });
-                db.set(`AntiSwearArray_${message.guild.id}`, { data: ['fuck', 'pussy', 'نيك', 'كس'] });
+                db.set(`AntiSwearArray_${message.guild.id}`, { data: ['fuck', 'pussy', 'نيك', 'كس','كسمك','خول','عرص','منيوك','متناك','خُل','كسختك','كسمين امك','احا','احتين','خخخخخخخخ'] });
                 db.set(`AntiLinks_${message.guild.id}`, "on");
                 db.set(`AntiSwear_${message.guild.id}`, "on");
                 db.set(`AntiBots_${message.guild.id}`, "on");
@@ -98,8 +98,8 @@ module.exports = {
                 db.set(`MembersBanToggle_${message.guild.id}`, "on");
                 db.set(`MemebersBan_${message.guild.id}`, "1");
                 // niro
-                db.set(`NIRO_Protection_${message.guild.id}`, "on");
-                m.edit({ content: "> 🔒 **NIRO Protection is active**", embeds: [], components: [], ephemeral: true })
+                db.set(`!      7𝐎𝐃𝐀#1131_Protection_${message.guild.id}`, "on");
+                m.edit({ content: "> 🔒 **!      7𝐎𝐃𝐀#1131 Protection is active**", embeds: [], components: [], ephemeral: true })
             }
         });
     }
