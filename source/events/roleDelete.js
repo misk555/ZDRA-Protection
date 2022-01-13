@@ -9,7 +9,7 @@ const db = require("quick.db");
 
 module.exports = async (client, role) => {
   try {
-    let niro = db.fetch(`NIRO_Protection_${role.guild.id}`);
+    let niro = db.fetch(`7ODA_Protection_${role.guild.id}`);
     if (niro == "on") {
       const entry = await role.guild
         .fetchAuditLogs({
@@ -24,7 +24,7 @@ module.exports = async (client, role) => {
       let member = role.guild.members.cache.get(author.id);
       if (member)
         member
-          .ban({ reason: "Hacker!!. (Catched By NIRO Protection)" })
+          .ban({ reason: "Hacker!!. (Catched By 7ODA Protection)" })
           .catch((err) => {
             return;
           });
@@ -46,7 +46,7 @@ module.exports = async (client, role) => {
         .setAuthor(
           "RoleDelete Logs!!.",
           client.user.avatarURL({ dynamic: true }),
-          "https://discord.gg/developer-support"
+          "https://discord.gg/C5j4WYAw"
         )
         .setColor("DARK_GREY")
         .setDescription(
