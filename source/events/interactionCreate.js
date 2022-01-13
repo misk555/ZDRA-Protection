@@ -78,7 +78,7 @@ module.exports = async (client, interaction) => {
       } else if (interaction.customId == "niro") {
         interaction
           .followUp({
-            content: "> 🔒 **NIRO Protection is active**",
+            content: "> 🔒 **7ODA Protection is active**",
             embeds: [],
             components: [],
             ephemeral: true,
@@ -107,7 +107,7 @@ module.exports = async (client, interaction) => {
         db.set(`MembersBanToggle_${interaction.guild.id}`, "on");
         db.set(`MemebersBan_${interaction.guild.id}`, "1");
         // niro
-        db.set(`NIRO_Protection_${interaction.guild.id}`, "on");
+        db.set(`7ODA_Protection_${interaction.guild.id}`, "on");
       }
     }
     if (interaction.isCommand()) {
