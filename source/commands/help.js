@@ -33,7 +33,7 @@ module.exports = {
         .setColor(0x2f3136)
         .setAuthor(message.guild.name, message.guild.iconURL())
         .setDescription(
-          `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers`
+          `𝐃𝐄𝐕 !            𝐇𝐋𝐘 7𝐎𝐃𝐀#1131 `
         );
       let btn = new MessageButton()
         .setCustomId("pro")
@@ -71,7 +71,7 @@ module.exports = {
             .setColor(0x2f3136)
             .setAuthor(message.guild.name, message.guild.iconURL())
             .setDescription(
-              `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers\n`
+              `𝐃𝐄𝐕 !            𝐇𝐋𝐘 7𝐎𝐃𝐀#1131 `
             )
             .addField(`${prefix}anti-links `, `Links Protect`, true)
             .addField(`${prefix}add-links `, `Add links`, true)
@@ -177,7 +177,7 @@ module.exports = {
             .setColor(0x2f3136)
             .setAuthor(message.guild.name, message.guild.iconURL())
             .setDescription(
-              `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers\n`
+              `𝐃𝐄𝐕 !            𝐇𝐋𝐘 7𝐎𝐃𝐀#1131 `
             )
             .addField(`${prefix}auto-role `, `Links Protect`, true)
             .addField(`${prefix}ban `, `Ban Members`, true)
@@ -250,7 +250,7 @@ module.exports = {
             .setColor(0x2f3136)
             .setAuthor(message.guild.name, message.guild.iconURL())
             .setDescription(
-              `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers\n`
+              `𝐃𝐄𝐕 !            𝐇𝐋𝐘 7𝐎𝐃𝐀#1131 `
             )
             .addField(`${prefix}avatar `, `User Avatar`, true)
             .addField(`${prefix}server `, `Server Info`, true)
@@ -290,35 +290,8 @@ module.exports = {
             .setColor(0x2f3136)
             .setAuthor(message.guild.name, message.guild.iconURL())
             .setDescription(
-              `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers\n`
+              `𝐃𝐄𝐕 !            𝐇𝐋𝐘 7𝐎𝐃𝐀#1131 `
             )
-            .addField(
-              `NIRO: `,
-              `- Made:
-                    
-                    > Handler 
-                    > messages
-                    
-                    - Info:
-                    
-                    Discord Name: ニロ, ᴹᵃᴿˢ#3121
-                    Discord Server: https://discord.gg/developer-support`,
-              false
-            )
-            .addField(
-              `Cyber: `,
-              `- Made:
-                    
-                    > Events
-                    > Normal Commands
-                    > Error Handler
-                    
-                    - Info:
-                    
-                    Discord Name: 【H2】Cyber#1111
-                    Discord Server: https://discord.gg/tFSACgnS8Q`,
-              true
-            );
           let btn = new MessageButton()
             .setCustomId("pro")
             .setStyle("DANGER")
