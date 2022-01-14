@@ -1,12 +1,12 @@
 {
     "activity": {
-        "name": "",
-        "type": "COMPETING"
+        "name": "𝐏𝐈𝐊𝐀𝐓𝐂𝐇𝐔 𝐒𝐓𝐎𝐑𝐄",
+        "type": "WATCHING"
     },
-    "status": "",
+    "status": "dnd",
 
-    "mainPrefix": "",
-    "mainLang": "",
+    "mainPrefix": "+",
+    "mainLang": "en",
 
-    "mainAdmin": ""
+    "mainAdmin": "778881852462596107"
 }
