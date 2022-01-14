@@ -26,7 +26,7 @@ module.exports = {
         .setColor(0x2f3136)
         .setAuthor(interaction.guild.name, interaction.guild.iconURL())
         .setDescription(
-          `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "❌" To Stop The Bot Protection\nPress "🔓" To Use All Bot Protection\nPress "🔒" To Allow NIRO Protection (your staff will can't use an permission thay have)\n`
+          `7ODA's PROTECTION`
         );
       let btn = new MessageButton()
         .setCustomId("x")
@@ -37,9 +37,9 @@ module.exports = {
         .setStyle("DANGER")
         .setLabel("🔓 Full Protection");
       let btn3 = new MessageButton()
-        .setCustomId("niro")
+        .setCustomId("7ODA")
         .setStyle("DANGER")
-        .setLabel("🔒 Niro Protection");
+        .setLabel("🔒 7ODA Protection");
       let row = new MessageActionRow().addComponents(btn, btn2, btn3);
       interaction
         .reply({
