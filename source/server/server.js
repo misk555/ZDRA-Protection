@@ -9,4 +9,4 @@ app.get('*', (req, res) => res.send('404!.'));
 
 app.listen(PORT, () => console.log(blue('Express server is live on port: ') + red.bold(PORT)));
 
-module.exports = "NIRO";
+module.exports = "7ODA";
