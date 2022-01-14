@@ -1,3 +1,4 @@
+require("events").EventEmitter.setMaxListeners(30);
 require('dotenv').config();
 require('./server/server');
 const { red, blue, green, gray } = require('chalk');
