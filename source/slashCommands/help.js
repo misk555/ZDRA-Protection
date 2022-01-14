@@ -27,7 +27,7 @@ module.exports = {
         .setColor(0x2f3136)
         .setAuthor(interaction.guild.name, interaction.guild.iconURL())
         .setDescription(
-          `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers`
+          `https://discord.gg/Qn3z4eyZzW`
         );
       let btn = new MessageButton()
         .setCustomId("pro")
@@ -64,7 +64,7 @@ module.exports = {
             .setColor(0x2f3136)
             .setAuthor(interaction.guild.name, interaction.guild.iconURL())
             .setDescription(
-              `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers\n`
+              `https://discord.gg/Qn3z4eyZzW`
             )
             .addField(`${prefix}anti-links `, `Links Protect`, true)
             .addField(`${prefix}add-links `, `Add links`, true)
@@ -170,7 +170,7 @@ module.exports = {
             .setColor(0x2f3136)
             .setAuthor(interaction.guild.name, interaction.guild.iconURL())
             .setDescription(
-              `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers\n`
+              `https://discord.gg/Qn3z4eyZzW`
             )
             .addField(`${prefix}auto-role `, `Links Protect`, true)
             .addField(`${prefix}ban `, `Ban Members`, true)
@@ -283,33 +283,30 @@ module.exports = {
             .setColor(0x2f3136)
             .setAuthor(interaction.guild.name, interaction.guild.iconURL())
             .setDescription(
-              `**[ZDRA Protection](https://github.com/DevelopersSupportAR/ZDRA-Protection.git), Protect your discord server from hackers and bad staff!!.**\n\n\nPress "🔒" To See Protection Commands\nPress "🛠️" To See Moderation Commands\nPress "🌍" To See Other Commands\nPress "👨‍💻" To See Bot Developers\n`
+              `https://discord.gg/Qn3z4eyZzW`
             )
             .addField(
-              `NIRO: `,
-              `- Made:
+              `7ODA: `,
+              `- LOVE:
                     
-                    > Handler 
-                    > Interactions
+                    > JS
                     
                     - Info:
                     
-                    Discord Name: ニロ, ᴹᵃᴿˢ#3121
-                    Discord Server: https://discord.gg/developer-support`,
+                     Name: MAHMOUD
+                    Discord Server: https://discord.gg/Qn3z4eyZzW`,
               false
             )
             .addField(
-              `Cyber: `,
-              `- Made:
+              `SRD | PIKACHU'PRʳᵛ: `,
+              `- nickname:
                     
-                    > Events
-                    > Normal Commands
-                    > Error Handler
+                    > بيكاتشو الرايق البيسبب حرايق
                     
                     - Info:
                     
-                    Discord Name: 【H2】Cyber#1111
-                    Discord Server: https://discord.gg/tFSACgnS8Q`,
+                     Name: بيكاتشو
+                    Discord Server: https://discord.gg/Qn3z4eyZzW`,
               true
             );
           let btn = new MessageButton()
